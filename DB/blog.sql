@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 15, 2024 at 05:09 PM
+-- Generation Time: Aug 30, 2024 at 03:38 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,9 +41,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`, `profile_pic`, `created_at`) VALUES
-(1, 'Oni', 'oni@gmail.com', '$2y$10$qTA7WQ08PqYV.EgNr/gCUeukVLx/eG0U1tLg8z1NKzaXCqAsVVpLS', NULL, '2024-01-15 02:49:47'),
-(2, 'Adesola', 'adesolaoni2001@gmail.com', '$2y$10$gUA841tqpCJW1FqalCu7WuiL0vEHv35WkTPJoqfuobXS9kMVeE3du', NULL, '2024-01-15 02:49:47'),
-(3, 'Nife', 'Nife@gmail.com', '$2y$10$bkCRRNPABf3wo/bJym9grehRe2GrnodzfCcXklIY1JCwxAgdQLsdG', NULL, '2024-01-15 02:49:47'),
+(1, 'Oni', 'oni@gmail.com', '$2y$10$Q33S/GC2398y3dU20pxI3uABZ6jkbKshyQt/9kHxmrOwD8cdEjR2W', 'uploads/65a65433ee7e4.jpg', '2024-01-15 02:49:47'),
+(2, 'Adesola', 'adesolaoni2001@gmail.com', '$2y$10$/1Pgs48MBol3jf8aKzdjhebfoPs/rtoRBvYzTfXdvFe68vZSYfcyq', 'uploads/65a6549893f3d.jpg', '2024-01-15 02:49:47'),
+(3, 'Nife', 'Nife@gmail.com', '$2y$10$FuxpSgiF14nofDisUpYVEu.T2LtTYcrqaj3.EYznr7v5JsK.fZxGa', 'uploads/65a655352cdc9.jpg', '2024-01-15 02:49:47'),
 (4, 'Olu', 'olunife@gmail.com', '$2y$10$k.zgh5ONN0A6EkCC5O5YXO6RWNTikcMopfnqPZf.XZR05jCyB6Iry', 'uploads/65a2c40eafec4.jpg', '2024-01-15 02:49:47');
 
 -- --------------------------------------------------------
